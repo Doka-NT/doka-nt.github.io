@@ -1,0 +1,12 @@
+html body .modal .modal-dialog {
+    font-size: 16pt;
+}
+
+html body .modal .btn {
+    font-size: 14pt;
+}
+
+#modalContact input.form-control {
+    text-align: center;
+    font-size: 22pt;
+}

@@ -1,0 +1,49 @@
+/*---------------------------------------------------
+    LESS Elements 0.9
+  ---------------------------------------------------
+    A set of useful LESS mixins
+    More info at: http://lesselements.com
+  ---------------------------------------------------*/
+html body .btn {
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  border-radius: 60px;
+  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  text-transform: uppercase;
+  font-size: 18pt;
+  font-weight: 300;
+  padding: 10px 50px;
+  text-align: center;
+  outline: none;
+}
+html body .btn:active {
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  -moz-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+html body .btn:active:focus,
+html body .btn:focus {
+  outline: none;
+}
+html body .btn.btn-default {
+  border-color: #e6e6e6;
+  background: #e6e6e6;
+}
+html body .btn.btn-success {
+  background: #8bc34a;
+  border-color: #8bc34a;
+}
+html body .btn.btn-primary {
+  background: #06c3f8;
+  border-color: #06c3f8;
+}
+html body .btn.btn-violet {
+  background: #8e24aa;
+  color: #FFF;
+}
+html body .btn.btn-warning {
+  background: #ff9800;
+  color: #FFF;
+}
